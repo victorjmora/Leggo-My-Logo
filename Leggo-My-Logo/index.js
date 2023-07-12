@@ -3,7 +3,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const questions = require('./lib/questions.js');
 const fileName = './examples/logo.svg';
-const shapes = require('./lib/shapes.js');
+const setshape = require('./lib/shapes.js');
 
 function createLogo(response) {
     const svg = setShape(response);

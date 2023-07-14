@@ -1,11 +1,25 @@
 {
-  "name": "y",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "lego-my-logo",
+    "version": "1.0.0",
+    "description": "An app intended to take user input to generate a small logo, the user will choose up to 3 letters, a color, and a shape",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/victorjmora/Leggo-My-Logo.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/victorjmora/Leggo-My-Logo/issues"
+    },
+    "homepage": "https://github.com/victorjmora/Leggo-My-Logo#readme",
+    "devDependencies": {
+        "jest": "^29.5.0"
+    },
+    "dependencies": {
+        "inquirer": "^9.2.7"
+    }
 }

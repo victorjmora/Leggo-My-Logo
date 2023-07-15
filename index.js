@@ -1,9 +1,9 @@
 //import inquirer
 const inquirer = require('inquirer');
 const fs = require('fs');
-const questions = require('../lib/questions');
+const questions = require('./lib/questions');
 const fileName = './examples/logo.svg';
-const setShape = require('../lib/shape');
+const setShape = require('./lib/shape');
 
 function createLogo(response) {
     const svg = new setShape(response);

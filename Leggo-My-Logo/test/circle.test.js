@@ -1,4 +1,4 @@
-const Circle = require('../../lib/Circle.js');
+const Circle = require('../../lib/circle');
 
 describe('Circle', () => {
     it('should return logo with user choice of shape color, tex, and text color', () => {
